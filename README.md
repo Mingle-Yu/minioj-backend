@@ -21,7 +21,7 @@ mvn clean package -DskipTests
 
 ```shell
 sudo apt install screen -y
-screen -S app
+screen -S minioj-backend
 java -jar minioj-backend-0.0.1-SNAPSHOT.jar
 # 按Ctrl+A+D脱离会话
 # 重新连接会话：screen -r app
